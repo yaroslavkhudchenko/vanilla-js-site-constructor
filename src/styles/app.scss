@@ -1,0 +1,23 @@
+.configurator {
+    position: relative;
+    .configurator__panel {
+        position: fixed;
+        top:0;
+        left:0;
+        bottom:0;
+        width:200px;
+        z-index: 1;
+        padding:10px;
+        box-shadow:1px 1px 1px black;
+        background:lavender;
+    }
+    .configurator__preview {
+        position: fixed;
+        width: calc(100% - 200px);
+        left: 200px;
+        top:0;
+        bottom: 0;
+        right: 0;
+        background:navajowhite;
+    }
+}
