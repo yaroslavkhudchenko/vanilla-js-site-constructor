@@ -1,26 +1,11 @@
 
-import { row } from './utils';
+import { row, col } from "./utils";
 
-const title = (block) => {
-    
-  return row(`
-      <div class="col-sm">
-        <h1>${block.value}</h1>
-      </div>
-  `);
-};
+const title = (block) => row(col(`<h1>${block.value}</h1>`));
 
-const text = (block) => {
-    
-  return row(`
-      <div class="col-sm">
-        <p>${block.value}</p>
-      </div>
-  `);
-};
+const text = (block) => row(col(`<p>${block.value}</p>`))
 
 const textColumns = (block) => {
-    
   const html = block.value.map((item) => `<div class="col-sm">${item}</div>`);
   return row(html.join(""));
 };
