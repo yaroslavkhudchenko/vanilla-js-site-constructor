@@ -1,5 +1,5 @@
 .configurator {
-    position: relative;
+    //position: relative;
     .configurator__panel {
         position: fixed;
         top:0;
@@ -9,7 +9,7 @@
         z-index: 1;
         padding:10px;
         box-shadow:1px 1px 1px black;
-        background:lavender;
+        //background:lavender;
     }
     .configurator__preview {
         position: fixed;
@@ -18,6 +18,6 @@
         top:0;
         bottom: 0;
         right: 0;
-        background:navajowhite;
+        // background:navajowhite;
     }
 }
