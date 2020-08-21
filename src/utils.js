@@ -1,0 +1,1 @@
+export const row = (htmlContent) => `<div class='row'>${htmlContent}</div>`
