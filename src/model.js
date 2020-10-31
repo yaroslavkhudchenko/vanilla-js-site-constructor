@@ -7,7 +7,7 @@ export const model = [
            options: {
              styles:
                "background: antiquewhite; color:black; text-align:center;padding:20px 0;font-size:30px;",
-             tag: "h2",
+              tag: "h2",
            },
          },
          {
