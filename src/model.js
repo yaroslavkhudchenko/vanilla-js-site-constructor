@@ -1,15 +1,7 @@
 import img1 from "./assets/img/1.png";
 
 export const model = [
-         {
-           type: "title",
-           value: "Page constructor",
-           options: {
-             styles:
-               "background: antiquewhite; color:black; text-align:center;padding:20px 0;font-size:30px;",
-              tag: "h2",
-           },
-         },
+        
          {
            type: "text",
            value:
