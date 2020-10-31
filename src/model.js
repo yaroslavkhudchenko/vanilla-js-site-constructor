@@ -6,7 +6,7 @@ export const model = [
            value: "Page constructor",
            options: {
              styles:
-               "background: antiquewhite; color:#000; text-align:center;padding:20px 0;font-size:30px;",
+               "background: antiquewhite; color:#fff; text-align:center;padding:20px 0;font-size:30px;",
              tag: "h2",
            },
          },
